@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".DispayContact">
+
+    <ImageView
+        android:id="@+id/img_person"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="311dp"
+        android:contentDescription="@string/per"
+        android:src="@drawable/ic_person"></ImageView>
+
+    <EditText
+        android:id="@id/contactname"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="315dp"
+        android:inputType="textPersonName"
+        android:text="@string/contact_name"
+        android:labelFor="@id/contactname"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:autofillHints=""></EditText>
+
+    <ImageView
+        android:id="@+id/img_contact"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:contentDescription="@string/call"
+        android:src="@drawable/ic_call"></ImageView>
+
+    <EditText
+        android:id="@id/contactnumber"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="252dp"
+        android:gravity="start"
+        android:inputType="number"
+        android:text="@string/contact_number"
+        android:labelFor="@id/contactnumber"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:autofillHints=""></EditText>
+
+    <ImageView
+        android:id="@+id/img_google"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="256dp"
+        android:contentDescription="@string/google"
+        android:src="@drawable/googleplus"></ImageView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="#D3D3D3"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="400dp"
+        android:contentDescription="@string/profilepic"
+        android:id="@+id/profile"></ImageView>
+
+    <ImageView
+        android:id="@+id/img_mail"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="189dp"
+        android:contentDescription="@string/mail"
+        android:src="@drawable/ic_mail"></ImageView>
+
+    <EditText
+        android:id="@+id/contactemail"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="189dp"
+        android:gravity="start"
+        android:inputType="textEmailAddress"
+        android:text="@string/contact_mail"
+        android:labelFor="@id/contactemail"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:autofillHints=""></EditText>
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center_horizontal"
+        android:text="@string/addcontact"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="invalid_name">Please enter  name</string>
+    <string name="invalid_email">Enter valid email</string>
+    <string name="invali_aval">invalid avail</string>
+    <string name="invalid_password">please enter password</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="image">image</string>
+    <string name="call">call</string>
+    <string name="per">person</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="menu_item">Menu Item</string>
+    <string name="google">googleplus</string>
+    <string name="profilepic">profilepicture</string>
+    <string name="mail">mail</string>
+    <string name="contact_mail">Contact Mail</string>
+    <string name="addcontact">Add Contact</string>
+</resources>
