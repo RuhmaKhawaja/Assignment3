@@ -75,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
         conn=(TextView)findViewById(R.id.contactname);
-        connum=(TextView)findViewById(R.id.contactnumber);
         conm=(TextView)findViewById(R.id.contactemail);
         Intent i=getIntent();
         String conna=i.getStringExtra("Name");
